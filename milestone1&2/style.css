@@ -1,0 +1,186 @@
+/* styling an outer div */
+#outer {
+  width: 60%;
+  height: 1050px;
+  margin-left: 20%;
+  margin-top: 3%;
+  border: solid rgb(146, 69, 6);
+  box-shadow: 0 0 20px;
+}
+
+/* styling left div section*/
+#left {
+  width: 35%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(20, 0, 0);
+  float: left;
+}
+
+/* styling an image section */
+#leftImage {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* stylng image in image section */
+#leftImage img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+/* styling  personal info section */
+#info {
+  box-sizing: border-box;
+  height: 290px;
+  cursor: pointer;
+}
+
+#info .pInfo {
+  color: white;
+  padding-left: 22px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+/* styling skills section */
+#skill {
+  box-sizing: border-box;
+  height: 500px;
+  cursor: pointer;
+}
+
+.containor {
+  background-color: rgb(236, 202, 151);
+  height: 30px;
+  margin: 8px;
+  box-sizing: border-box;
+}
+#html {
+  background-color: rgb(231, 19, 19);
+  height: 30px;
+  margin-right: 10%;
+}
+#css {
+  background-color: rgb(172, 172, 3);
+  height: 30px;
+  margin-right: 15%;
+}
+#ts {
+  background-color: rgb(45, 212, 3);
+  height: 30px;
+  margin-right: 20%;
+}
+#ms {
+  background-color: rgb(253, 80, 0);
+  height: 30px;
+  margin-right: 10%;
+}
+
+.containor-font {
+  color: rgb(224, 224, 17);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  text-shadow: 0 0 4px;
+  padding-left: 20px;
+}
+
+/* styling right div */
+#right {
+  border: solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 65%;
+  margin-left: 35%;
+  background-color: rgb(240, 198, 182);
+}
+
+#right p:hover {
+  color: rgb(194, 13, 0);
+}
+
+/* styling an education section */
+.education {
+  height: 22%;
+  box-sizing: border-box;
+}
+
+.education h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 22pt;
+  text-shadow: 0 0 5px;
+  color: rgb(54, 14, 0);
+  padding-left: 30%;
+  cursor: pointer;
+}
+
+.education li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.ul {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+/* styling certification sec */
+#certification {
+  height: 23%;
+  box-sizing: border-box;
+}
+.cert {
+  box-sizing: border-box;
+  height: 50px;
+  width: 40%;
+  margin-left: 29%;
+  margin-right: 25%;
+  margin-bottom: 25px;
+  background-color: rgb(94, 45, 5);
+  border-radius: 60px;
+  box-shadow: 0 0 20px;
+}
+
+.u {
+  margin-left: 10%;
+  margin-top: 40px;
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.strong {
+  text-shadow: 0 0 2.4px;
+}
+.strong:hover {
+  cursor: pointer;
+  font-size: 20pt;
+  color: rgb(94, 57, 3);
+}
+
+/* styling a button */
+button {
+  border-radius: 40px;
+  margin-top: 20%;
+  margin-left: 20%;
+  height: 70px;
+  width: 60%;
+  background-color: rgb(80, 47, 4);
+  border: none;
+  border-color: rgb(27, 18, 1);
+  box-shadow: 0 0 30px;
+  color: rgb(255, 69, 1);
+  font-size: 15pt;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(99, 214, 4);
+}
